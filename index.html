@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gelasio&family=Open+Sans&display=swap"     rel="stylesheet"> 
+  <title>Form Example</title>
+</head>
+<body>
+  <heading>
+    <h1>Form Example</h1>
+  </heading>
+
+  <main>
+    <div class="form-wrapper">
+      <div class="form-container">
+        <form action="https://formspree.io/moexu13@gmail.com" method="post">
+          <div class="form-group">
+            <label for="name" class="form-label">Name:&nbsp;</label>
+            <br />
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              class="form-control"
+              placeholder="Someone Awesome" 
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email:&nbsp;</label>
+            <br />
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              class="form-control"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+
+          <div class=form-group>
+            <label for="message" class="form-label">Message:&nbsp;</label>
+            <br />
+            <textarea 
+              id="message" 
+              name="message" 
+              rows="5" 
+              cols="20" 
+              class="form-control"
+              placeholder="What's on your mind?"
+              required  
+            ></textarea>
+          </div>
+          <button class="btn btn-submit" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+</body>
+</html>

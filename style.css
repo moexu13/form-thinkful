@@ -1,0 +1,80 @@
+:root {
+  --color-primary: #274472;
+  --color-primary-light: #5885af;
+  --color-secondary: #358275;
+  --color-secondary-light: #5a9d92;
+  box-sizing: border-box;
+}
+
+html {
+  /* this defines 1 rem */
+  font-size: 62.5%;
+}
+
+h1 {
+  color: var(--color-primary);
+  font-family: Gelasio, serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.btn {
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  height: 4rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 20rem;
+}
+
+.btn-submit {
+  background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary)); 
+  color: white;
+}
+
+.btn-submit:hover {
+  background-image: linear-gradient(to right bottom, var(--color-secondary-light), var(--color-secondary)); 
+}
+
+.form-container {
+  display: flex;
+}
+
+.form-control {
+  border: solid 1px var(--color-primary);
+  font-size: 1.6rem;
+  outline: none;
+  resize: none;
+  width: 50rem;
+}
+
+.form-group {
+  margin-top: 2rem;
+}
+
+.form-label {
+  color: var(--color-primary);
+  font-family: Gelasio, serif;
+  font-size: 2rem;
+}
+
+.form-wrapper {
+  align-items: center;
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.1),
+    0 0.6rem 2rem 0 rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 35vh;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 7rem;
+  padding: 3rem 9rem;
+  width: 50%;
+}
+
+
+
